@@ -1,0 +1,71 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-02T08:03:42.982Z",
+        "before": [
+          {
+            "result": {
+              "duration": 382000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.WeatherAPIStepDefinition.initializeDataTable(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "GET CITY API and TEST RESULT",
+        "description": "",
+        "id": "weather-api-automation-testing;get-city-api-and-test-result",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 457000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I hit weather API with valid data",
+            "match": {
+              "location": "stepDefinition.WeatherAPIStepDefinition.hitWeatherAPI()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 949000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I hit a GET API",
+            "match": {
+              "location": "stepDefinition.WeatherAPIStepDefinition.hitGetMethod()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 47000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Validate API response",
+            "match": {
+              "location": "stepDefinition.WeatherAPIStepDefinition.validateAPIResponse()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Weather API automation Testing",
+    "description": "",
+    "id": "weather-api-automation-testing",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/weather_api.feature",
+    "tags": []
+  }
+]
